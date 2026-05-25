@@ -16,26 +16,40 @@ app.use(express.json());
 // ================================================================
 let plugins = [
   {
-    id: "dart-runner", name: "Dart Runner", description: "Execute arquivos Dart no editor",
-    extensions: ["dart"], action: "RUN", price: 0, published: true,
-    iconEmoji: "◆", iconColorHex: "#54C5F8", type: "TOOL",
-    rating: 4.3, reviewCount: 56, official: true, featured: false,
-    version: "1.0.0", author: "AstroCode Official"
+    "id": "dart-runner",
+    "name": "Dart Runner",
+    "extensions": [
+      "dart"
+    ],
+    "action": "RUN",
+    "price": 0,
+    "description": "Execute arquivos Dart no editor",
+    "published": true
   },
   {
-    id: "python-exec", name: "Python Exec", description: "Execute scripts Python com output em tempo real",
-    extensions: ["py", "python"], action: "RUN", price: 0, published: true,
-    iconEmoji: "🐍", iconColorHex: "#A5D6A7", type: "TOOL",
-    rating: 4.5, reviewCount: 78, official: true, featured: false,
-    version: "1.0.0", author: "AstroCode Official"
+    "id": "python-exec",
+    "name": "Python Exec",
+    "extensions": [
+      "py",
+      "python"
+    ],
+    "action": "RUN",
+    "price": 0,
+    "description": "Execute scripts Python com output em tempo real",
+    "published": true
   },
   {
-    id: "js-runner", name: "JS Runner", description: "Execute JavaScript e TypeScript",
-    extensions: ["js", "ts"], action: "RUN", price: 1.99, published: false,
-    iconEmoji: "🟡", iconColorHex: "#FDD835", type: "TOOL",
-    rating: 4.1, reviewCount: 23, official: true, featured: false,
-    version: "0.9.0", author: "AstroCode Official"
-  },
+    "id": "js-runner",
+    "name": "JS Runner",
+    "extensions": [
+      "js",
+      "ts"
+    ],
+    "action": "RUN",
+    "price": 1.99,
+    "description": "Execute JavaScript e TypeScript",
+    "published": false
+  }
 ];
 // ================================================================
 
